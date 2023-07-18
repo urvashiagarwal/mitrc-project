@@ -16,7 +16,7 @@ const Foods = () => {
             redirect: 'follow'
         };
 
-        fetch("/foods", requestOptions)
+        fetch("https://training-project.onrender.com/foods", requestOptions)
             .then(response => response.json())
             .then(result => {
                 setData(result)
@@ -70,7 +70,7 @@ const Foods = () => {
             redirect: 'follow'
         };
 
-        fetch("/createfood", requestOptions)
+        fetch("https://training-project.onrender.com/createfood", requestOptions)
             .then(response => response.json())
             .then(result => {
                 console.log(result)
@@ -149,7 +149,7 @@ const Foods = () => {
             redirect: 'follow'
         };
 
-        fetch("/food/" + SingleData._id, requestOptions)
+        fetch("https://training-project.onrender.com/food/" + SingleData._id, requestOptions)
             .then(response => response.text())
             .then(result => {
                 setShowUpdate(false);
@@ -168,7 +168,7 @@ const Foods = () => {
             redirect: 'follow'
         };
 
-        fetch("/food/" + e, requestOptions)
+        fetch("https://training-project.onrender.com/food/" + e, requestOptions)
             .then(response => response.json())
             .then(result => {
                 setShowUpdate(true);
@@ -198,7 +198,7 @@ const Foods = () => {
             redirect: 'follow'
         };
 
-        fetch("/food/" + e, requestOptions)
+        fetch("https://training-project.onrender.com/food/" + e, requestOptions)
             .then(response => response.text())
             .then(result => {
                 CallApi()
