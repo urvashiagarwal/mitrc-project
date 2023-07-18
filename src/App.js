@@ -1,12 +1,11 @@
-import { useEffect } from "react";
 import Foods from "./Pages/Foods";
 
-const App=()=> {
+const App = () => {
 
-  
+
   return (
     <>
-<Foods/>
+      <Foods />
     </>
   );
 }
