@@ -243,7 +243,7 @@ const Foods = () => {
                                         <td>{items.name}</td>
                                         <td>{items.type}</td>
                                         <td>₹ {items.price}</td>
-                                        <td style={{ backgroundColor: items.available ? "yello" : "red" }}></td>
+                                        <td style={{ backgroundColor: items.available === "YES" ? "green" : "red" }}></td>
                                         <td style={{ backgroundColor: items.category === "VEG" ? "green" : "red", color: "white" }}>{items.category}</td>
                                         {/* <td>{items.currency}</td> */}
                                         {/* <td>{items.description}</td> */}
