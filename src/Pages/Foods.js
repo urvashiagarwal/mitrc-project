@@ -248,7 +248,7 @@ const Foods = () => {
                                         {/* <td>{items.currency}</td> */}
                                         {/* <td>{items.description}</td> */}
                                         <td>{items.discount}%</td>
-                                        <td>{items.duration} min</td>
+                                        {/* <td>{items.duration} min</td> */}
                                         <td>{items.quantity}</td>
                                         <td>{items.ratings}</td>
                                         <td>{items.resturant}</td>
