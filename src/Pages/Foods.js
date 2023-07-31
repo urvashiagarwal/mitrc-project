@@ -244,7 +244,7 @@ const Foods = () => {
                                         <td>{items.type}</td>
                                         <td>₹ {items.price}</td>
                                         <td style={{ backgroundColor: items.available === true ? "green" : "red" }}></td>
-                                        <td style={{ backgroundColor: items.category === VEG ? "green" : "red", color: "white" }}>{items.category}</td>
+                                        <td style={{ backgroundColor: items.category === "NON-VEG" ? "red" : "green" }}>{items.category}</td>
                                         {/* <td>{items.currency}</td> */}
                                         {/* <td>{items.description}</td> */}
                                         <td>{items.discount}%</td>
