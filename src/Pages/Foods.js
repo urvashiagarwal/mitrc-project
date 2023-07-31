@@ -243,12 +243,12 @@ const Foods = () => {
                                         <td>{items.name}</td>
                                         <td>{items.type}</td>
                                         <td>₹ {items.price}</td>
-                                        <td style={{ backgroundColor: items.available === "True" ? "blue" : "red" }}></td>
+                                        <td style={{ backgroundColor: items.available === true ? "blue" : "red" }}></td>
                                         <td style={{ backgroundColor: items.category === "VEG" ? "green" : "red", color: "white" }}>{items.category}</td>
                                         {/* <td>{items.currency}</td> */}
                                         {/* <td>{items.description}</td> */}
                                         <td>{items.discount}%</td>
-                                        {/* <td>{items.duration} min</td> */}
+                                        <td>{items.duration} min</td>
                                         <td>{items.quantity}</td>
                                         <td>{items.ratings}</td>
                                         <td>{items.resturant}</td>
