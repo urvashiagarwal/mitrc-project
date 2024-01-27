@@ -5,7 +5,7 @@
 Discover the capabilities of Zogy-CMS, a live React.js-based Food Content Management System (CMS) designed for efficient CRUD operations. This showcase demonstrates my skills in web development, featuring a modern and responsive interface for managing food product data.
 
 **Live Demo:**
-Visit [Zogy-CMS Live Demo] https://sprightly-eclair-d27a5f.netlify.app/ to explore the interactive features.
+Visit [Zogy-CMS Live Demo] (https://zogy-cms.netlify.app/) to explore the interactive features.
 
 **Key Features:**
 
